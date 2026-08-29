@@ -35,27 +35,25 @@ html {
     margin: 10px;
 }
 .nav-bar {
-    display:flex;
-    gap: 10px;
-    margin: 10px;
-    overflow-x: auto;
-    overflow-y: hidden ;
-    flex-wrap: nowrap;
-    height: 60px;
-    align-items: center;
-    justify-content: flex-start;
-    white-space: nowrap;
-    flex-direction: row;
-    scroll-behavior: smooth;
-    padding: 0 15px;
-    -webkit-overflow-scrolling: touch;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  height: 50px;
+  margin: 10px 0;
+  padding: 0 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
-nav a {
-    text-decoration: none;
-    color: black;
-    white-space: nowrap;
-    padding:5px 8px;
-    flex-shrink: 0;
+.nav-bar a, nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  flex-shrink: 0;
+  padding: 6px 10px;
 }
 .CTA-btn {
     border-radius:5px;
