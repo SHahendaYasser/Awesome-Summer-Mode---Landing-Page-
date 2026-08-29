@@ -39,6 +39,7 @@ html {
     gap: 10px;
     margin: 10px;
     overflow-x: auto;
+    overflow-y: hidden ;
     flex-wrap: nowrap;
     aline-item: center;
     justify-content: center;
@@ -52,10 +53,7 @@ nav a {
     color: black;
     margin: 10px;
     gap: 10px;
-    overflow-x: auto;
-    flex-wrap: nowrap;
     white-space: nowrap;
-    scroll-behavior: smooth;
     padding:5px 8px;
     justify-content: center;
 }
