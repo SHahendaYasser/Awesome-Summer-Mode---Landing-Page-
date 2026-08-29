@@ -47,6 +47,7 @@ html {
     white-space: nowrap;
     flex-direction: row;
     scroll-behavior: smooth;
+    padding: 15px;
     -webkit-overflow-scrolling: touch;
 }
 nav a {
