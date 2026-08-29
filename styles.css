@@ -41,13 +41,13 @@ html {
     overflow-x: auto;
     overflow-y: hidden ;
     flex-wrap: nowrap;
-    height: 40px;
+    height: 60px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     white-space: nowrap;
     flex-direction: row;
     scroll-behavior: smooth;
-    padding: 15px;
+    padding: 0 15px;
     -webkit-overflow-scrolling: touch;
 }
 nav a {
