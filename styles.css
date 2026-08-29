@@ -43,6 +43,7 @@ html {
     aline-item: center;
     justify-content: center;
     white-space: nowrap;
+    flex-direction: row;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
 }
