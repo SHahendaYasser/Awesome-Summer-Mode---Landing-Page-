@@ -41,7 +41,7 @@ html {
     overflow-x: auto;
     overflow-y: hidden ;
     flex-wrap: nowrap;
-    aline-items: center;
+    align-items: center;
     justify-content: center;
     white-space: nowrap;
     flex-direction: row;
