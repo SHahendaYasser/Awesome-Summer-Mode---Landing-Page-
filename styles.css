@@ -41,6 +41,7 @@ html {
     overflow-x: auto;
     overflow-y: hidden ;
     flex-wrap: nowrap;
+    height: 40px;
     align-items: center;
     justify-content: center;
     white-space: nowrap;
@@ -53,6 +54,7 @@ nav a {
     color: black;
     white-space: nowrap;
     padding:5px 8px;
+    flex-shrink: 0;
 }
 .CTA-btn {
     border-radius:5px;
