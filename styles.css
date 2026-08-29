@@ -38,7 +38,7 @@ html {
     display:flex;
     gap: 10px;
     margin: 10px;
-    overflow-y: auto;
+    overflow-x: auto;
     flex-wrap: nowrap;
     white-space: nowrap;
     scroll-behavior: smooth;
@@ -51,9 +51,6 @@ nav a {
     gap: 10px;
     display: flex;
     flex-wrap: nowrap;
-    white-space: nowrap;
-    overflow-x: auto;
-    scroll-behavior: smooth;
     padding:5px 8px;
     justify-content: center;
     font-size: 14px;
