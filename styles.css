@@ -41,7 +41,7 @@ html {
     overflow-x: auto;
     overflow-y: hidden ;
     flex-wrap: nowrap;
-    aline-item: center;
+    aline-items: center;
     justify-content: center;
     white-space: nowrap;
     flex-direction: row;
@@ -51,11 +51,8 @@ html {
 nav a {
     text-decoration: none;
     color: black;
-    margin: 10px;
-    gap: 10px;
     white-space: nowrap;
     padding:5px 8px;
-    justify-content: center;
 }
 .CTA-btn {
     border-radius:5px;
