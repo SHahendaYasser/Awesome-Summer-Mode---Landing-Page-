@@ -38,7 +38,6 @@ html {
     display:flex;
     gap: 10px;
     margin: 10px;
-    flex-wrap: nowrap;
     overflow-y: auto;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -48,6 +47,7 @@ nav a {
     color: black;
     margin: 10px;
     gap: 10px;
+    display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     scroll-behavior: smooth;
