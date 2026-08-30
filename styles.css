@@ -59,7 +59,7 @@ body {
 .nav-bar a, nav a {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: #c0eb75;
   font-size: 14px;
   flex-shrink: 0;
   padding: 6px 10px;
@@ -67,9 +67,9 @@ body {
 .CTA-btn {
     border-radius:5px;
     border: 1px solid #222;
-    color:#c0eb75;
+    color: black;
     font-weight:bold;
-    background: #000;
+    background: #c0eb75;
     padding:5px 8px;
     margin: 8px;
 }
@@ -78,7 +78,7 @@ div {
 }
 .fot-a {
     text-decoration: none;
-    color: black;
+    color: #c0eb75;
     display: block;
     margin: 15px 0;
     font-weight: bold;
