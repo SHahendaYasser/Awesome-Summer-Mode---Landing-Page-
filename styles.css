@@ -1,7 +1,6 @@
 /* Add CSS styles for your web site here and use them in index.html. */
 html {
     scroll-behavior: smooth;
-    background-image: linear-gradient(to right, black, #2D2D35, #2D2D35, black);
     background-attachment: fixed;
     background-color: black;
     margin: 15px;
