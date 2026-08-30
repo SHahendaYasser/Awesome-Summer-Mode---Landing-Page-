@@ -3,11 +3,16 @@ html {
     scroll-behavior: smooth;
     background-attachment: fixed;
     background-color: #000;
-    margin: 15px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
+
 body {
     font-family: sans-serif;
-    color: whitesmoke;
+    margin: 0;
+    padding: 15px;
+    background-color: #000;
 }
 .product-card,
 .feed-back-card {
