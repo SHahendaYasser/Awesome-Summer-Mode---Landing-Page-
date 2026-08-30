@@ -1,9 +1,13 @@
 /* Add CSS styles for your web site here and use them in index.html. */
 html {
     scroll-behavior: smooth;
-    background-image: linear-gradient(to bottom, olivedrab, #c0eb75,#c0eb75,olivedrab);
+    background-image: linear-gradient(to bottom, black, gray, gray, black);
     background-attachment: fixed;
     margin: 15px;
+}
+body {
+    font-family: sans-serif;
+    color: whitesmoke;
 }
 .product-card,
 .feed-back-card {
@@ -60,7 +64,7 @@ html {
     border: 1px solid #222;
     color:#c0eb75;
     font-weight:bold;
-    background-color:black;
+    background-image: linear-gradient(to right, black, gray, black);
     padding:5px 8px;
     margin: 8px;
 }
