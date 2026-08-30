@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 15px;
     background-color: #000;
+    color: #c0eb75;
 }
 .product-card,
 .feed-back-card {
@@ -61,18 +62,36 @@ body {
   text-decoration: none;
   color: #c0eb75;
   font-size: 14px;
+  font-weight: bold;
   flex-shrink: 0;
   padding: 6px 10px;
+  transition: all 0.3s ease;
 }
+
+.nav-bar a:hover, nav a:hover {
+  color: white;
+  text-shadow: 0 0 10px #c0eb75;
+}
+
 .CTA-btn {
-    border-radius:5px;
-    border: 1px solid #222;
-    color: black;
-    font-weight:bold;
+    border-radius: 5px;
+    border: 2px solid #c0eb75;
+    color: #000;
+    font-weight: bold;
     background: #c0eb75;
-    padding:5px 8px;
+    padding: 10px 15px;
     margin: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
+
+.CTA-btn:hover {
+    background: #a8d856;
+    border-color: #a8d856;
+    transform: scale(1.05);
+}
+
 div {
     margin: 15px 0;
 }
@@ -82,17 +101,26 @@ div {
     display: block;
     margin: 15px 0;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
-h1 {
-    text-align:center;
+
+.fot-a:hover {
+    color: white;
+    text-shadow: 0 0 10px #c0eb75;
 }
+
+h1, h2 {
+    text-align: center;
+    color: #c0eb75;
+}
+
 .hero-img {
-    border-radius:12px;
-    padding:10px 16px;
-    border: 1px solid #c0eb75;
-    display:block;
+    border-radius: 12px;
+    padding: 10px 16px;
+    border: 2px solid #c0eb75;
+    display: block;
     margin: auto;
     width: 80%;
-    height:fit-content;
+    height: fit-content;
     object-fit: cover;
 }
